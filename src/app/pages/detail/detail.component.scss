@@ -1,0 +1,41 @@
+.detail-card{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff2cc;
+  margin: 2em;
+
+  @media only screen and (min-width: 800px) {
+    flex-direction: row;
+  }
+
+  .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+
+    img{
+      max-width: 350px;
+      width: 100%;
+    }
+  }
+
+  .bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    padding: 1em;
+  }
+  .item{
+    max-width: 500px;
+    text-align: center;
+  }
+
+  .table{
+    max-width: 400px;
+    background-color: white;
+  }
+}
