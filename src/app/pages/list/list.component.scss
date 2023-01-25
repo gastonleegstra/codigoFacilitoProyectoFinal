@@ -1,0 +1,11 @@
+.list{
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(12em,1fr));
+  gap:2em;
+  margin-top: 0.5em;
+}

@@ -6,12 +6,12 @@
 
 .content {
   margin: 0;
-  background-color: white;
+  background-color: #1d90ce;
   flex: 1;
   position: relative;
 
   .cody-img{
-    position: absolute;
+    position: fixed;
     bottom: 1em;
     right: 1em;
   }

@@ -13,8 +13,7 @@ export class AppComponent {
   }
 
   getCodyImg(){
-    let rand = Math.random() * 18;
-    rand = Math.floor(rand);
+    let rand = Math.floor(Math.random() * 17)+1;
     this.imgCody = `assets/codys/${rand}.png`;
   }
 }
